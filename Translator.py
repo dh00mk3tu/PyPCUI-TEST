@@ -5,9 +5,8 @@ from googletrans import Translator
 frame = tk.Tk()
 
 frame.title("Translator Test ")
-frame.geometry("370x100")
+frame.geometry("570x100")
 
-def trans() :
 def trans_fr() :
     input = entry.get()
     translator = Translator(service_urls=["translate.google.com"])
